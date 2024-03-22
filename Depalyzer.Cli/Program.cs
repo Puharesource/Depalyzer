@@ -47,7 +47,7 @@ namespace Depalyzer.Cli
             [DefaultValue(false)]
             public bool IsShowingProjectsInTransitive { get; init; }
 
-            [Description("Defined if a simplified view should be displayed, where only the root and leaves of the dependency graph should be shown.")]
+            [Description("Defines if a simplified view should be displayed, where only the root and leaves of the dependency graph should be shown.")]
             [CommandOption("-s|--simplified")]
             [DefaultValue(false)]
             public bool IsSimplifiedView { get; init; }
