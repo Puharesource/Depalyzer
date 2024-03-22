@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Depalyzer.Cli", "Depalyzer.Cli\Depalyzer.Cli.csproj", "{FA0096FD-B8D9-47BF-8710-B7A043A6E1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Depalyzer.Common", "Depalyzer.Common\Depalyzer.Common.csproj", "{132F18EC-8944-4E7F-9B7C-4B79C1A0AE41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Depalyzer.Common.Test", "Depalyzer.Common.Test\Depalyzer.Common.Test.csproj", "{4734D7B6-0079-47F2-BEFD-6EE70CDE80DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0096FD-B8D9-47BF-8710-B7A043A6E1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0096FD-B8D9-47BF-8710-B7A043A6E1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0096FD-B8D9-47BF-8710-B7A043A6E1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0096FD-B8D9-47BF-8710-B7A043A6E1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132F18EC-8944-4E7F-9B7C-4B79C1A0AE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132F18EC-8944-4E7F-9B7C-4B79C1A0AE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132F18EC-8944-4E7F-9B7C-4B79C1A0AE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132F18EC-8944-4E7F-9B7C-4B79C1A0AE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4734D7B6-0079-47F2-BEFD-6EE70CDE80DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4734D7B6-0079-47F2-BEFD-6EE70CDE80DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4734D7B6-0079-47F2-BEFD-6EE70CDE80DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4734D7B6-0079-47F2-BEFD-6EE70CDE80DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

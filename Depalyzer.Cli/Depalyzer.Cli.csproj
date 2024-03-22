@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AnalysisMode>Recommended</AnalysisMode>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Build" Version="17.9.5" />
+      <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="NuGet.Versioning" Version="6.9.1" />
+      <PackageReference Include="Spectre.Console" Version="0.48.0" />
+      <PackageReference Include="Spectre.Console.Cli" Version="0.48.0" />
+      <PackageReference Include="Spectre.Console.Json" Version="0.48.0" />
+      <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Depalyzer.Common\Depalyzer.Common.csproj" />
+    </ItemGroup>
+
+</Project>
