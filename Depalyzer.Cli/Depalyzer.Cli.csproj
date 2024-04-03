@@ -6,6 +6,15 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>12</LangVersion>
+        <Version>1.0.2</Version>
+        <Title>Depalyzer</Title>
+        <Authors>Tarkan Nielsen</Authors>
+        <Description>Depalyzer analyzes a .NET solution's dependencies for possible vulnerabilities. Behind the scenes it'll run dotnet CLI commands.</Description>
+        <PackageProjectUrl>https://github.com/Puharesource/Depalyzer</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/Puharesource/Depalyzer/blob/main/LICENSE.md</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/Puharesource/Depalyzer.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Copyright>2024 Tarkan Nielsen</Copyright>
     </PropertyGroup>
 
     <PropertyGroup>

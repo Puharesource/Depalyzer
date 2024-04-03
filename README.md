@@ -17,9 +17,10 @@ depalyzer [directory]
 ```
 
 ## Parameters
-
 | Parameter name                | Shorthand | Default value | Description                                                                                                               |
 |-------------------------------|-----------|---------------|---------------------------------------------------------------------------------------------------------------------------|
 | --verbose                     |           | false         | Defines if extra data should be displayed.                                                                                |
 | --show-projects-in-transitive |           | false         | Defines if the projects in the solution should be displayed when referenced in other projects of the solution.            |
 | --simplified                  | -s        | false         | Defines if a simplified view should be displayed, where only the root and leaves of the dependency graph should be shown. |
+| --version                     | -v        |               | Displays the current version of Depalyzer.                                                                                |
+| --help                        | -h        |               | Displays help in the terminal.                                                                                            |
