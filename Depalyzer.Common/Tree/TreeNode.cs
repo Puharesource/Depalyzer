@@ -1,6 +1,7 @@
 ﻿namespace Depalyzer.Common.Tree;
 
-public record TreeNode<TItem>(TItem Item, TreeNode<TItem>? Parent = null) where TItem : notnull
+public record TreeNode<TItem>(TItem Item, TreeNode<TItem>? Parent = null)
+    where TItem : notnull
 {
     public List<TreeNode<TItem>> Children { get; } = [];
 

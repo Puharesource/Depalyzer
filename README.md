@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="header.svg">
+    <img alt="Depalyzer logo" src="header.svg">
 </h1>
 
 Depalyzer analyzes a .NET solution's dependencies for possible vulnerabilities. Behind the scenes it'll run `dotnet` CLI commands.

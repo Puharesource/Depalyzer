@@ -23,8 +23,8 @@ public class CommandProcess : IDisposable
         startInfo.Arguments = arguments;
 
         this.handle.EnableRaisingEvents = true;
-        this.handle.OutputDataReceived += delegate(object _, DataReceivedEventArgs eventArgs) { this.outputBuilder.AppendLine(eventArgs.Data); };
-        this.handle.ErrorDataReceived += delegate(object _, DataReceivedEventArgs eventArgs) { this.outputBuilder.AppendLine(eventArgs.Data); };
+        this.handle.OutputDataReceived += (_, eventArgs) => { this.outputBuilder.AppendLine(eventArgs.Data); };
+        this.handle.ErrorDataReceived += (_, eventArgs) => { this.outputBuilder.AppendLine(eventArgs.Data); };
     }
 
     public async Task<string> Run()
